@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destino.css">
+    <link rel="shortcut icon" href="assets/ico/logo-ico.png" type="image/x-icon">
+    <title>Destino</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho/Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navega">
+            <div id="topo">
+                <a href="#"><img class="logo" src="assets/logo/life-logo.png" alt="Logo Life Style"></a>
+            </div>
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="sobre.html">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="promocoes.html">PROMOÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="destino.html">DESTINO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main com todas as seções -->
+    <main>
+        <!-- Seção da barra de pesquisa-->
+        <section>
+            <div class="barraDeNavegacao">
+                <form class="d-flex pesquisa">
+                    <input class="form-control auto" type="search" placeholder="Pesquisa" aria-label="Search">
+                    <button type="button" class="btn" id="botao">Pesquisa</button>
+                </form>
+                <div class="title">
+                    <h2>Escolha os melhores<br> destinos aqui!</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Seções de cards e dos destinos -->
+        <section>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/ParliamentHill-Ottawa.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Parliament Hill – Ottawa, Canadá</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam nobis ipsam et ipsum
+                        dignissimos
+                        optio quisquam inventore repudiandae nesciunt delectus natus.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Fernando-de-Noronha-Pernambuco.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Fernando de Noronha, Pernambuco, Brasil</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam nobis ipsam et ipsum
+                        dignissimos
+                        optio quisquam inventore repudiandae nesciunt delectus natus.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Cerro-Catedral-Bariloche.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Cerro Catedral, Bariloche, Argentina</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam nobis ipsam et ipsum
+                        dignissimos
+                        optio quisquam inventore repudiandae nesciunt delectus natus.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Kremlin-de-Moscou.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Kremlin de Moscou, Russia</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam nobis ipsam et ipsum
+                        dignissimos
+                        optio quisquam inventore repudiandae nesciunt delectus natus.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/São-Francisco-Califórnia.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>São Francisco, Califórnia, USA</h5>
+                    <p>A cidade de São Francisco fica no estado da Califórnia, com 50% da população formada por
+                        estrangeiros, ela tem característica única e consegue ser, ao mesmo tempo, casual e sofisticada,
+                        familiar e liberal, com uma grande qualidade: o respeito às diferenças.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Busan-Coreia-do-Sul.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Busan, Coreia do Sul</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam nobis ipsam et ipsum
+                        dignissimos
+                        optio quisquam inventore repudiandae nesciunt delectus natus.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Shanghai-Tower.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Shanghai Tower, China</h5>
+                    <p>A Shanghai Tower , o edifício mais alto da China, segundo mundialmente, oferece uma excelente
+                        vista
+                        do futuro da China e de Xangai.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/HIMEJI-CASTLE-HYOGO.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>HIMEJI CASTLE, HYOGO, Japão</h5>
+                    <p>É um complexo palaciano com 82 edifícios de madeira. Com uma aparência branca e elegante, é
+                        amplamente considerado o castelo mais espetacular do Japão pelo seu tamanho, pela sua beleza
+                        imponente e pela preservação de sua estrutura.</p>
+                </div>
+            </div>
+            <div class="card-pais">
+                <div class="foto">
+                    <img class="img-lugares" src="assets/img/destino/Basílica-de-Santa-Sofia.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <h5>Basílica de Santa Sofia, Turquia</h5>
+                    <p>A Basílica de Santa Sofia, construída entre os anos de 532 e 537 a pedido do imperador
+                        Justiniano, é
+                        um dos pontos turísticos mais famosos de Istambul. O monumento impressiona os turistas por sua
+                        beleza e arquitetura. O lugar foi declarado patrimônio mundial pela UNESCO e certamente merece a
+                        sua
+                        visita.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Rodape de apresentação de desenvolvimentor/voltar para o inicio do site-->
+    <footer>
+        <div class="red-sociais">
+            <div>
+                <p>Conecte-se conosco nas redes sociais:</p>
+            </div>
+            <div>
+                <a href="#"><img width="25px" src="assets/svg/twiter.svg" alt="twiter"></a>
+                <a href="#"><img width="25px" src="assets/svg/gmail.svg" alt="gmail"></a>
+                <a href="#"><img width="25" src="assets/svg/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img width="25" src="assets/svg/github.svg" alt="github"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="box-table">
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th>
+                            <h3><img width="50" src="assets/ico/logo-ico-SFundo.png" alt=""> Life Style</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Empresa conceituada com 15 <br> anos no mercado. Os melhores <br> preços e serviços você
+                            encontra <br> aqui.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">PRODUTOS</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Hoteis</a></td>
+                        <td><a href="#">Pacotes</a></td>
+                        <td><a href="#">Passagens</a></td>
+                        <td><a href="#">Transportes</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">LINKS ÚTEIS</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="destino.html">Destinos</a></td>
+                        <td><a href="contato.html">Contato</a></td>
+                        <td><a href="promocoes.html">Promoções</a></td>
+                        <td><a href="#">Suporte</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">CONTATO</a></th>
+                    </tr>
+                    <tr>
+                        <td><a class="rodFlex" href="#"> Brasil, Br 0000, BR</a></td>
+                        <td><a class="rodFlex" href="#"> info@example.com</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 71 0000-0000</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 71 0000-0000</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="tab">
+            <p>&copy; 2022 Copyright: <a href="#navega">Life-Style-viagens.com</a></p>
+
+        </div>
+    </footer>
+</body>
+</html>

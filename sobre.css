@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&display=swap');
+html,body{
+    font-family: 'Nunito', sans-serif;
+    color:#1c1c1c;
+    margin: 0px;
+}
+/* Titulos/fontes */
+h1, h2{
+    font-family: 'Asap', sans-serif;
+    color:#000000;
+}
+h3{
+    font-family: 'Asap', sans-serif;
+}
+/* Cabeçalho/Barra de navegação */
+#navega{
+    display:flex;
+    justify-content: space-around;
+    background-color: #191970;
+}
+#topo{
+    display:flex;
+    margin:0px;
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    height: 40px;
+}
+li > a{
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+li > a:hover{
+    transition: 0.1s;
+    border-bottom: solid 2px white;
+}
+/* Logo */
+.logo{
+    margin: 10px 0px 10px 0px;
+    height: 60px;
+}
+/* Conteudo do sobre */
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+article{
+    margin: 60px;
+    width: 80%;
+}
+article > p{
+    font-size: 'Nunito', arial;
+    font-size: 1.1rem;
+}
+article > header > h2{
+    color: #013b77;
+}
+/* Rodape */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+}
+.box-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10px;
+}
+hr{
+    width: 100%;
+    padding: 1px;
+}
+footer > div > table, tr{
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+} 
+.rodFlex{
+    text-decoration: none;
+    display: flex;
+}
+.tab{
+    margin-top: 50px;
+}
+.red-sociais{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.red-sociais > div > a{
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px){
+    /*cabeçalho*/
+    .apresentacao{
+        height: auto;
+        padding: 20px;
+    }
+}

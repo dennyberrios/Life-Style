@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="assets/ico/logo-ico.png" type="image/x-icon">
+    <title>Life Style</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho/Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navega">
+            <div id="topo">
+                <a href="#"><img class="logo" src="assets/logo/life-logo.png" alt="Logo Life Style"></a>
+            </div>
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="sobre.html">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="promocoes.html">PROMOÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="destino.html">DESTINO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main com todas as seções -->
+    <main>
+        <!-- Seção de apresentação e formulario -->
+        <section class="apresentacao">
+            <div class="text-apresentacao">
+                <h1>Agência de viagens Life Style</h1>
+                <br><br>
+                <p>Somos a Life Style, a agência de viagens que se adequa a seu estilo de vida.
+                    Por isso temos mais de 50 coberturas e assistências com preços acessíveis!</p>
+                <br>
+                <h2>Não importa o destino que você escolha,
+                    nós estaremos com você.</h2>
+            </div>
+            <form>
+                <div class="selectLog">
+                    <div>
+                        <label>Qual seu destino:</label>
+                        <select class="form-select" id="destino" aria-label="Default select example" required>
+                            <option selected>Selecione seu destino</option>
+                            <option value="1">Brasil</option>
+                            <option value="2">América Latina (inclui México)</option>
+                            <option value="3">Europa</option>
+                            <option value="4">Ásia</option>
+                            <option value="5">África</option>
+                            <option value="6">Oceania</option>
+                            <option value="7">Múltiplos destinos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                    </div>
+                </div>
+                <div class="selectLog">
+                    <div>
+
+                        <label>Data da Viagem:</label>
+                        <input type="date" class="data" id="data-inicio" required>
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" class="form-control" id="validationCustom01" required>
+                    </div>
+                </div>
+                <div class="selectLog">
+                    <div><label>Quantas pessoas:</label>
+                        <input type="number" class="form-control" id="validationCustom01" required>
+                    </div>
+                    <div><label>Telefone:</label>
+                        <input type="tel" class="form-control" id="validationCustom01" required>
+                    </div>
+                </div>
+                <div class="bt">
+                    <button class="btn" id="btformulario" type="submit">Contrate agora!</button>
+                </div>
+            </form>
+        </section>
+        <!-- Seção de promoções de viagens continentais  -->
+        <section id="promocao">
+            <div class="promo-texto">
+                <h2>Uma agência de viagens digital, rápida e barata.</h2>
+                <p>Aproveite as férias! Viagem com estilo e conforto para todo o Brasil e sem pagar muito por isso.
+                    Embarque em uma viagem de aventura e com a segurança da nossa agência Life Style. Temos os melhores
+                    destinos para você e sua família.</p>
+            </div>
+            <div class="card-promo">
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title"> Brasil</h5>
+                        <p class="items1 atribu-margin">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$4</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,04</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">América Latina</h5>
+                        <h5 class="promo-title1">(inclui México)</h5>
+                        <p class="items1" style="margin-top: 12px;">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$10</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,83</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Europa</h5>
+                        <p class="items1 atribu-margin">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$15</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,72</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title"> Estados Unidos e Canadá</h5>
+                        <p class="items1" style="margin-top: -6px;">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Ásia</h5>
+                        <p class="items1 atribu-margin">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">África</h5>
+                        <p class="items1 atribu-margin">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Oceania</h5>
+                        <p class="items1 atribu-margin">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Múltiplos destinos</h5>
+                        <p class="items1" style="margin-top: 56px;">a partir de:</p>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                            <p class="items4">por<br> dia</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-light" id="botao-promo"
+                            href="promocoes.html" role="button">fazer
+                            cotação</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção de informação-->
+        <section id="informe">
+            <div class="caixaDeTexto">
+                <h1>Sua satisfação é nosso maior <br> compromisso...</h1>
+                <br>
+                <p>Seu estilo combina mais com praia, campo ou montanha? Independente da geografia do local,<br> a gente
+                    quer te ajudar a curtir sua viagem com tudo que você tem direito, a começar da
+                    tranquilidade. Life Style a sua agência de viagens, converse com a gente e vamos criar juntos um
+                    roteiro maravilhoso e que seja a sua cara, no destino e no custo. Explore viagens, viajar é
+                    possível. </p>
+            </div>
+        </section>
+        <!-- Seção de carrossel-->
+        <section>
+            <div id="carouselExampleControls" class="carousel carousel-dark slide carrossel" data-bs-ride="carousel">
+                <div class="carousel-inner flexivel">
+                    <div class="carousel-item active">
+                        <h2>Depoimentos</h2>
+                        <div class="foto-flexivel">
+                            <div class="foto foto-1"></div>
+                        </div>
+                        <div class="texto">
+                            <p>De 1 a 10, nota mil, para o atendimento, serviço, carro, recorrido. Empresa comprometida,
+                                além de serem super prestativos e pacientes, deixando-nos à vontade para desfrutar do
+                                passeio, o que nos permite a recorrer com calma para poder sentir o gostinho dos lindos
+                                locais percorridos com eles, igrejinha/gramado/canela. Viagem inesquecível
+                                <br><br>
+                                <strong>Brenda Caroline</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Depoimentos</h2>
+                        <div class="foto-flexivel">
+                            <div class="foto foto-2"></div>
+                        </div>
+                        <div class="texto">
+                            <p>Já fomos duas vezes a Gramado e Canela, mas na segunda vez conhecemos o Wilson e a
+                                Luciana que, na verdade, foram anjos que Deus colocou em nossa viagem para que a
+                                experiência fosse muito melhor que a primeira vez. E de fato, foi. Pessoas de extrema
+                                confiança e conhecedores de todos os lugares incríveis e lindos deste lugar mágico. Não
+                                tem como voltar a Gramado e não ser cuidado por esse casal incrível. Certamente
+                                voltaremos mais vezes e com toda certeza eles serão nossos cuidadores se assim podemos
+                                dizer de forma muito carinhosa que, agora podemos chamá-los de amigos.
+                                <br><br>
+                                <strong>Marcio e Arthur SP</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Depoimentos</h2>
+                        <div class="foto-flexivel">
+                            <div class="foto foto-3"></div>
+                        </div>
+                        <div class="texto">
+                            <p>O trabalho dessa agência além de super profissional é igualmente agradável, foi com toda
+                                certeza uma das melhores viagens que fiz em toda minha vida, posso dizer também que foi
+                                uma das mais marcantes, eu que não conhecia nada nem ninguém acabei saindo de lá
+                                realizando um sonho, se tornaram grandes amigos, me senti super á vontade com eles já
+                                que os dois são super agradáveis e amigáveis, me levaram nos principais pontos
+                                turísticos de Gramado e Canela com todo o conforto e segurança possível, com muito
+                                carinho e cuidado, sim, gente vale muito á pena, não me arrependo de tê-los contratado
+                                para a viagem, fiquei mais que satisfeito fizeram meu sonho se tornar realidade...
+                                <br><br>
+                                <strong>Pedro</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Depoimentos</h2>
+                        <div class="foto-flexivel">
+                            <div class="foto foto-4"></div>
+                        </div>
+                        <div class="texto">
+                            <p>A Life Style realmente tem a responsabilidade e compromisso de uma agência, mas quando
+                                contratei os serviços fui tratada como alguém da família, isso para mim pesa muito mais
+                                que qualquer coisa. Que experiência maravilhosa ter conhecido vocês, obrigada por toda a
+                                dedicação e cuidado, recomendo vocês de olhos fechados e jaja estarei de volta para mais
+                                alguns passeios!!
+                                <br><br>
+                                <strong>Letícia</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Seção de fotos.-->
+        <section id="fotos">
+
+            <h2>Fotos</h2>
+
+            <img src="assets/img/home/Ponte-Golden-Gate.png" alt="Ponte Golden Gate">
+            <img src="assets/img/home/recife-centro.png" alt="Centro do recife">
+            <img src="assets/img/home/marco-zero.png" alt="Marco zero">
+            <img src="assets/img/home/praia-de-boa-viagem.png" alt="Praia de boa viagem">
+            <img src="assets/img/home/Lienze-Steiermark-Austria.png" alt="Lienze Steiermark Austria">
+            <img src="assets/img/home/ponte.jpg" alt="Ponte">
+        </section>
+    </main>
+    <!-- Rodape de apresentação de desenvolvimentor/voltar para o inicio do site-->
+    <footer>
+        <div class="red-sociais">
+            <div>
+                <p>Conecte-se conosco nas redes sociais:</p>
+            </div>
+            <div>
+                <a href="#"><img width="25px" src="assets/svg/twiter.svg" alt="twiter"></a>
+                <a href="#"><img width="25px" src="assets/svg/gmail.svg" alt="gmail"></a>
+                <a href="#"><img width="25" src="assets/svg/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img width="25" src="assets/svg/github.svg" alt="github"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="box-table">
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th>
+                            <h3><img width="50" src="assets/ico/logo-ico-SFundo.png" alt=""> Life Style</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Empresa conceituada com 15 <br> anos no mercado. Os melhores <br> preços e serviços você
+                            encontra <br> aqui.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">PRODUTOS</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Hoteis</a></td>
+                        <td><a href="#">Pacotes</a></td>
+                        <td><a href="#">Passagens</a></td>
+                        <td><a href="#">Transportes</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">LINKS ÚTEIS</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="destino.html">Destinos</a></td>
+                        <td><a href="contato.html">Contato</a></td>
+                        <td><a href="promocoes.html">Promoções</a></td>
+                        <td><a href="#">Suporte</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">CONTATO</a></th>
+                    </tr>
+                    <tr>
+                        <td><a class="rodFlex" href="#"> Brasil, Br 0000, BR</a></td>
+                        <td><a class="rodFlex" href="#"> info@example.com</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 71 0000-0000</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 71 0000-0000</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="tab">
+            <p>&copy; 2022 Copyright: <a href="#navega">Life-Style-viagens.com</a></p>
+
+        </div>
+    </footer>
+</body>
+</html>
