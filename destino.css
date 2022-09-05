@@ -70,6 +70,12 @@ section{
     padding: 10px;
     border-radius: 5px;
 }
+#botao:hover{
+    transition: 0.3s;
+    background-color: #0c0c41e0;
+    color: rgb(176, 208, 238);
+    box-shadow: 0 0 5px black;
+}
 .img-lugares{
     width: 100%;
     height: 100%;

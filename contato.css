@@ -102,6 +102,12 @@ section{
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
 }
+#botao:hover{
+    transition: 0.3s;
+    background-color: #0c0c41e0;
+    color: rgb(176, 208, 238);
+    box-shadow: 0 0 5px black;
+}
 /* Rodape */
 footer{
     display: flex;
